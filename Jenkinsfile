@@ -2,7 +2,7 @@ pipeline {
     agent any
 
     environment {
-        DOCKER_IMAGE = "nourdinebouya/nextjs-app"
+        DOCKER_IMAGE = "nourdinebouya/nextjsapp"
     }
 
     stages {

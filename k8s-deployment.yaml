@@ -6,15 +6,15 @@ spec:
   replicas: 2
   selector:
     matchLabels:
-      app: nextjs-app
+      app: nextjsapp
   template:
     metadata:
       labels:
-        app: nextjs-app
+        app: nextjsapp
     spec:
       containers:
-      - name: nextjs-app
-        image: nourdinebouya/nextjs-app:latest
+      - name: nextjsapp
+        image: nourdinebouya/nextjsapp:latest
         ports:
         - containerPort: 3000
 
@@ -25,7 +25,7 @@ metadata:
   name: nextjs-service
 spec:
   selector:
-    app: nextjs-app
+    app: nextjsapp
   ports:
     - protocol: TCP
       port: 80

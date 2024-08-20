@@ -19,8 +19,8 @@ jobs:
     - name: Log in to Docker Hub
       uses: docker/login-action@v2
       with:
-        username: 'nourdinebouya'
-        password: '147369@@**'
+        username: nourdinebouya
+        password: 147369@@**
 
     - name: Push Docker image
       run: docker push nourdinebouya/devops:$(date +%s)

@@ -20,7 +20,7 @@ jobs:
       uses: docker/login-action@v2
       with:
         username: nourdinebouya
-        password: 147369@@**
+        password: 5104Cih@*
 
     - name: Push Docker image
       run: docker push nourdinebouya/devops:$(date +%s)
